@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500");
+
+body{
+    height: 100%;
+    background: url(../img/bg.jpg) 50%/cover;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.playlist{
+    padding: 30px 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.playlist__title{
+    margin-bottom: 25px;
+    text-align: center;
+    font: 500 20px/1.2 "Roboto", sans-serif;
+    color: #574d72;
+}
+
+.playlist__item{
+    list-style: none;
+    border-top: 1px solid #e4e2e2;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.song__duration,
+.song__author{
+    margin-bottom: 5px;
+    color: #a4a3a9;
+    font: 300 13px/1.2 "Roboto", sans-serif;
+}
+
+.song__duration{
+    margin-right: 10px;
+}
+
+.song__duration::after{
+    content: " | ";
+    margin-left: 10px;
+}
+
+.song__name{
+    font: 500 16px/1.2 "Roboto", sans-serif;
+    color: #574d72;
+}
